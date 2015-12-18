@@ -1,2 +1,2 @@
-# teaching
-Courses Matthew is teaching or designing
+# Statistical Data Analysis in Experimental Physics
+Courses designed by Matthew Feickert and Steve Sekula
