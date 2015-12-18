@@ -1,0 +1,86 @@
+\documentclass[aps,letterpaper,12pt]{article}
+
+\usepackage{graphicx} % For images
+\graphicspath{{Images/}}
+\usepackage{float}		% For tables and other floats
+\usepackage{amsmath}  	% For math
+\usepackage{amssymb}  	% For more math
+\usepackage{fullpage} 	% Set margins and place page numbers at bottom center
+\usepackage{subfig}   	% For subfigures
+\usepackage[usenames,dvipsnames]{xcolor}	% For colors and names for color boxed links
+%\usepackage[usenames,dvipsnames]{color}	% For colors and names
+\usepackage[]{hyperref}           		% For hyperlinks and indexing the PDF
+\hypersetup{
+    colorlinks=false,		% Surround the links by color frames (false) or colors the text of the links (true)
+    citecolor=blue,		% Color of citation links
+    filecolor=black,		% Color of file links
+    linkcolor=red,		% Color of internal links (sections, pages, etc.)
+    urlcolor=black,		% Color of url hyperlinks
+    linkbordercolor=red, 	% Color of links to bibliography
+    citebordercolor=blue,	% Color of file links
+    urlbordercolor=blue	% Color of external links
+}
+\usepackage{calligra}	% For generating 'script r'
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+%\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\usepackage{mathrsfs}	% For nice math calligraphy fonts
+\usepackage{custom}
+%\usepackage{draftmode}		% Draft mode edit;	Remember to remove the linenumbers command
+\usepackage{soul}			% Allows strikethrough of text with \st{text}
+\usepackage{cancel}		% Allows for \cancelto{cancel_to_value}{quantity_being_canceled}
+\usepackage{mathtools}	% Needed for mathclap
+\usepackage{tabu}
+
+%\usepackage{al?phalph}
+\renewcommand\vec[1]{\ensuremath\boldsymbol{#1}}	% Makes vectors boldface type, replaces arrows.
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}		% Causes footnotes to be indicated symbols, not numbers
+%\numberwithin{equation}{section}					% Labels equations due to their section number
+\hyphenation{ATLAS}							% Defines where words may be hyphenated
+
+% Redefine the itemize symbol to be empty space for problem 3.
+%\renewcommand*\labelitemi{}
+
+
+% Change enumerate bullet point
+\usepackage{enumerate}
+
+\usepackage{caption}
+\usepackage{empheq}
+
+% 
+\begin{document}
+\begin{centering}
+\textbf{Statistical Data Analysis in Experimental Physics}\\
+\textbf{Syllabus}\\
+\textbf{Semester Year}\\
+\end{centering}\vspace{30pt}
+
+\section*{Course Description}
+A 12 week course focusing on the underlying theory of statistics that drives modern data analysis in experimental techniques in experimental physics. A practical understanding of the theory and techniques will be acquired by writing analysis code in \texttt{C++}, using the ROOT data analysis framework and RooFit package. The course will be built around the provided course notes.
+
+\section*{Course Topics}
+
+\begin{enumerate}
+	\item A Review of Introductory Statistics
+	\item \ldots
+	\item Model Optimization
+	\item \ldots
+\end{enumerate}
+
+\section*{Recommended Texts}
+
+\begin{itemize}
+	\item \href{http://smile.amazon.com/Data-Analysis-High-Energy-Physics/dp/3527410589/}{Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods (1st Edition)}, \emph{Behnke, et al.}
+	\item \href{http://smile.amazon.com/dp/3527410864/}{Statistical Analysis Techniques in Particle Physics: Fits, Density Estimation and Supervised Learning 1st Edition}, \emph{Narksy and Porter}
+	\item The \href{https://root.cern.ch/root-user-guides-and-manuals}{RooFit Users Manual}
+	\item \ldots
+\end{itemize}
+
+\section*{Grading}
+
+
+%###########
+%%%%%%%%
+\end{document}
+%%%%%%%%
+%###########
